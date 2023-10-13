@@ -1,7 +1,10 @@
+import React from 'react'
 
 const About = () => {
    return (
-      <div>About</div>
+      <div>
+         <h1>hello world </h1>
+      </div>
    )
 }
 
