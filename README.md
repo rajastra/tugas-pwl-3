@@ -1,6 +1,6 @@
 # Project Name
 
-This is for tugas PAM
+This is for tugas PWL
 
 ## Installation
 
