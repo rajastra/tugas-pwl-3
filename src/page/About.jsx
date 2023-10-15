@@ -1,5 +1,7 @@
 import React from 'react'
 import MainLayout from "../layout/mainLayout"
+import logoItera from "../assets/logo-itera.jpg"
+import gambarRaja from "../assets/raja-1.jpg"
 
 const About = () => {
    return (
@@ -28,14 +30,14 @@ const About = () => {
                         questions, please get in touch. I'm always excited to connect with fellow tech enthusiasts.</p>
                   </div>
                   <div class="about-image-box">
-                     <img src="assets/img/raja-1.jpg" alt="gambar raja" class="about-image" />
+                     <img src={gambarRaja} alt="gambar raja" class="about-image" />
                   </div>
                </div>
                <div class="about-academic-box">
                   <h2 class="about-heading-secondary">Academic Background</h2>
                   <div class="about-academic-description-box">
                      <div>
-                        <img src="assets/img/logo-itera.jpg" alt="logo itera" class="about-academic-image" />
+                        <img src={logoItera} alt="logo itera" class="about-academic-image" />
                      </div>
                      <div class="about-academic-text-box">
                         <p class="about-description">2020-2024(expected)</p>

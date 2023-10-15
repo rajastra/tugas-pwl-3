@@ -351,3 +351,46 @@ body {
 .fa-heart {
   color: #e67e22;
 }
+
+.form-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.form-contact input,
+.form-contact textarea {
+  border: none;
+  border-radius: 9px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fdf2e9;
+  transition: all 0.3s;
+}
+
+.form-contact input:focus,
+.form-contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #e67e22;
+}
+
+.form-contact input::placeholder,
+.form-contact textarea::placeholder {
+  color: #333;
+}
+
+.btn-submit {
+  border: none;
+  border-radius: 9px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #e67e22;
+  transition: all 0.3s;
+  cursor: pointer;
+  grid-column: 1/-1;
+}
