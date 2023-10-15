@@ -1,5 +1,4 @@
 import React from 'react'
-import MainLayout from "../layout/mainLayout"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -7,7 +6,6 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 
 const Home = () => {
    return (
-
       <section class="section-home">
          <div className="home">
             <div>
